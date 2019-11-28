@@ -21,7 +21,8 @@ const routes: Routes = [
 
 
   { path: 'signup', loadChildren: './page/signup/signup.module#SignupPageModule' },
-  { path: 'forgot-pass', loadChildren: './page/forgot-pass/forgot-pass.module#ForgotPassPageModule' }
+  { path: 'forgot-pass', loadChildren: './page/forgot-pass/forgot-pass.module#ForgotPassPageModule' },
+  { path: 'landing', loadChildren: './page/landing/landing.module#LandingPageModule' }
 ];
 
 @NgModule({
